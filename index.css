@@ -1,0 +1,61 @@
+body{
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 0;
+}
+
+.outer_div{
+    position: fixed;
+    top: 20%;
+    width: 60%;
+    bottom: 20%;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 5px;
+
+}
+
+.welcome{
+    color: rgb(211, 211, 211);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.inner_div{
+    margin: auto;
+    width: 40%;
+    height: 300px;
+    padding: 10px;
+    border: none;
+    background-color: none;
+}
+
+h1, h2, .inner_div{
+    padding: 1%;
+}
+
+.input_text{
+    width: 100%;
+    border: none;
+    height: 25px;
+    background-color: rgb(211, 211, 211);
+    border-radius: 2px;
+}
+.btn_holder{
+    text-align: center;
+}
+
+.btn{
+    margin-top: 20px;
+    width: 30%;
+    height: 25px;
+    border: none;
+    background-color: rgb(211, 211, 211);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font: bold;
+}
+
+.congrats{
+    color: rgb(211, 211, 211);
+    font-size: 100px;
+}
