@@ -4,7 +4,7 @@
 
     <body>
         <div class="outer_div">
-            <h2 class=welcome align=center>CSRF prevention - Double Submit Cookie Pattern</h2>
+            <h2 class=welcome align=center>CSRF prevention - Synchronizer Token Pattern</h2>
             <p class= welcome align=center>Login credentials<br>Username : admin<br>Password : csrf</p>
             <form action="msg.php" method="post">
                 <div class=inner_div>

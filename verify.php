@@ -9,8 +9,8 @@ if (isset($_POST['msg'])){
         echo '
         <div class=outer_div>
 
-        <h1 class=welcome align=center>Cookie Accepted!</h1>
-        <p class=congrats align=center>Congratulations!</p>
+            <h1 class=welcome align=center>Cookie Accepted!</h1>
+            <p class=congrats align=center>Congratulations!</p>
 
         </div>
         ';
