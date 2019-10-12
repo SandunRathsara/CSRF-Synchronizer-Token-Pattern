@@ -20,7 +20,6 @@ require 'headers.php';
 
 <script>
 
-
 $(document).ready(function() {
     var xhttp = new XMLHttpRequest();
 
@@ -38,7 +37,7 @@ $(document).ready(function() {
     <body>
         <div class="outer_div">
             <h1 class=welcome align=center>Wellcome!</h1>
-            <h2 class=welcome align=center>CSRF prevention - Double Submit Cookie Pattern</h3>
+            <h2 class=welcome align=center>CSRF prevention - Synchronizer Token Pattern</h3>
             <form action="verify.php" method="post">
                 <div class=inner_div>
                     <label class=welcome >Write message :</label><br><br><input type="text" class=input_text id="uname" name="theMsg"><br><br><br>
