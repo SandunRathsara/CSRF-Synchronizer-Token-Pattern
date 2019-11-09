@@ -4,7 +4,7 @@ require_once 'check_token.php';
 
 $value = $_POST['token'];
 
-if (isset($_POST['msg'])){
+if (isset($_POST['token'])){
     if (token::checkToken($value, $_COOKIE['session_time'])){
         echo '
         <div class=outer_div>
@@ -15,14 +15,13 @@ if (isset($_POST['msg'])){
         </div>
         ';
     }
-    else{
-        echo '<div class=outer_div>
+}else{
+    echo '<div class=outer_div>
 
-        <h1 class=welcome align=center>Cookie Rejected!</h1>
-        <p class=congrats align=center>You Cheater!</p>
+    <h1 class=welcome align=center>Cookie Rejected!</h1>
+    <p class=congrats align=center>You Cheater!</p>
 
-        </div>';
-    }
+    </div>';
 }
 
 ?>
